@@ -91,9 +91,8 @@ class Calculadora(tk.Tk):
             self.entrada_StringVar.set(self.expresion)
             self.expresion = ""
         except:
-            messagebox.showerror("Error","No se puede dividir entre 0")
+            self.entrada_StringVar.set("Syntax error")
             self.expresion = ""
-            self.entrada_StringVar.set(self.expresion)
 
 if __name__ == "__main__":
     app = Calculadora()
