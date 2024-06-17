@@ -11,7 +11,7 @@ Este proyecto es una calculadora gráfica simple creada utilizando el módulo `t
 
 1. **Clonar el repositorio**:
    git clone https://github.com/Rex10202/Calculadora.git
-   cd Calculadora
+   
 ## Uso
 ● Al ejecutar el script calculadora.py, se abrirá una ventana de la calculadora con los siguientes componentes:
 
